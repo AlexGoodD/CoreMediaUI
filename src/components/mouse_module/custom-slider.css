@@ -1,0 +1,27 @@
+/* custom-slider.css */
+
+.custom-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 200px;
+  outline: none;
+}
+
+.custom-slider-disabled::-webkit-slider-runnable-track {
+  background: #4A3174; /* Color de la pista cuando está deshabilitado */
+}
+
+.custom-slider-disabled::-moz-range-track {
+  background: #4A3174; /* Color de la pista en Firefox cuando está deshabilitado */
+}
+
+.custom-slider::-webkit-slider-runnable-track {
+  background: #6D31D0; /* Color de la pista cuando está habilitado */
+  border-radius: 10px;
+}
+
+.custom-slider::-moz-range-track {
+  background: #6D31D0;
+  border-radius: 8px;
+}

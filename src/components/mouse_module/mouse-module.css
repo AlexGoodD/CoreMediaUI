@@ -1,0 +1,18 @@
+/* MouseModule.css */
+
+.custom-slider {
+    height: 200px;
+    width: 12px;
+  }
+  
+  .custom-slider .ms-Slider-thumb {
+    background-color: purple;
+  }
+  
+  .custom-slider .ms-Slider-track {
+    background-color: purple;
+  }
+
+  .background-color {
+    background-color: #272727;
+  }
