@@ -4,7 +4,7 @@ import {
 } from "@fluentui/react-components";
 import AppHeader from "./components/app-header";
 import ServicesModule from "./components/services_module/services-module";
-import MouseModule from "./components/mouse_module/mouse-module";
+//import MouseModule from "./components/mouse_module/mouse-module";
 
 function App() {
   return (
